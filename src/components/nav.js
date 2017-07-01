@@ -5,7 +5,7 @@ import React from 'react'
 
 import {xhr} from '../services';
 
-class Hello extends React.Component{
+class Nav extends React.Component{
   constructor(props, context){
     super(props, context);
   }
@@ -41,4 +41,4 @@ class Hello extends React.Component{
     )
   }
 }
-export default Hello
+export default Nav
